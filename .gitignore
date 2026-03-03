@@ -31,3 +31,5 @@ bin/
 
 ##MD Files
 *.md
+
+.idea/
