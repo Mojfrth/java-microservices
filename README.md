@@ -16,6 +16,11 @@ Architecture Diagram
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/85bba165-28c7-4e1a-81a4-c76e1bb70a99" />
 
+AWS Services:-
+
+<img width="2047" height="598" alt="image" src="https://github.com/user-attachments/assets/060c42bc-f544-40cc-9922-a6a692786aaf" />
+
+
 🛠 Tech Stack
 Backend
 
