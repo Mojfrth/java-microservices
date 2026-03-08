@@ -12,9 +12,35 @@ This platform demonstrates modern distributed system design including:
 ✨ Cloud deployment on AWS ECS Fargate
 ✨ Infrastructure as Code using AWS CDK
 
-Architeccture Diagram 
+Architecture Diagram 
 
-<img width="1199" height="655" alt="Our Architecture in ECS" src="https://github.com/user-attachments/assets/3dfefc1f-5bd2-49c7-9071-3b697a7ada48" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/85bba165-28c7-4e1a-81a4-c76e1bb70a99" />
+
+🛠 Tech Stack
+Backend
+
+☕ Java
+🌱 Spring Boot
+🔗 REST APIs
+⚡ gRPC
+
+Messaging
+
+📨 Apache Kafka
+☁️ AWS MSK
+
+Database
+
+🐘 PostgreSQL
+☁️ AWS RDS
+
+DevOps
+
+🐳 Docker
+☁️ AWS CDK
+🚀 ECS Fargate
+🧪 Integration Tests
+
 
 🚀 Architecture Overview
 
@@ -26,8 +52,6 @@ The system is composed of multiple microservices communicating through REST APIs
 
 📌 Patient events are published to Kafka (AWS MSK) and consumed by analytics services.
 
-🧠 System Architecture
-Main Architecture
 
 🧩 Microservices
 👤 Patient Service
@@ -153,29 +177,4 @@ Benefits:
 ✅ Environment consistency
 ✅ Easier deployments
 ✅ Scalable microservices
-
-🛠 Tech Stack
-Backend
-
-☕ Java
-🌱 Spring Boot
-🔗 REST APIs
-⚡ gRPC
-
-Messaging
-
-📨 Apache Kafka
-☁️ AWS MSK
-
-Database
-
-🐘 PostgreSQL
-☁️ AWS RDS
-
-DevOps
-
-🐳 Docker
-☁️ AWS CDK
-🚀 ECS Fargate
-🧪 Integration Tests
 
