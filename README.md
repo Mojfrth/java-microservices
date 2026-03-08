@@ -203,3 +203,6 @@ healthcare-microservices
 ☁️ Cloud deployment on AWS
 🐳 Docker containerization
 🧪 Integration testing
+
+
+<img width="2048" height="1073" alt="image" src="https://github.com/user-attachments/assets/c46fb8d5-abf2-4b29-bf3d-fc40fbd83619" />
