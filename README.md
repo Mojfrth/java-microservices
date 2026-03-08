@@ -16,7 +16,16 @@ Architecture Diagram
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/85bba165-28c7-4e1a-81a4-c76e1bb70a99" />
 
-AWS Services:-
+## AWS Services Used
+
+- 🛜 **VPC** – Network isolation  
+- 🐳 **ECS Fargate** – Container orchestration  
+- 💾 **RDS (PostgreSQL)** – Databases  
+- 📡 **MSK** – Kafka cluster  
+- ⚖️ **Application Load Balancer (ELB)**  
+- 🧭 **CloudMap** – Service discovery  
+- 🌍 **Route 53** – DNS management  
+- 🖥 **EC2** – Supporting infrastructure
 
 <img width="2047" height="598" alt="image" src="https://github.com/user-attachments/assets/060c42bc-f544-40cc-9922-a6a692786aaf" />
 
@@ -161,17 +170,6 @@ Test Scenarios
 ☁️ AWS Infrastructure
 
 Infrastructure is defined using Infrastructure as Code with AWS CDK.
-
-AWS Services Used
-
-🛜 VPC – Network isolation
-🐳 ECS Fargate – Container orchestration
-💾 RDS (PostgreSQL) – Databases
-📡 MSK – Kafka cluster
-⚖️ Application Load Balancer (ELB)
-🧭 CloudMap – Service discovery
-🌍 Route 53 – DNS management
-🖥 EC2 – Supporting infrastructure
 
 🐳 Containerization
 
