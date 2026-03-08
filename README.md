@@ -12,6 +12,10 @@ This platform demonstrates modern distributed system design including:
 ✨ Cloud deployment on AWS ECS Fargate
 ✨ Infrastructure as Code using AWS CDK
 
+Architeccture Diagram 
+
+<img width="1199" height="655" alt="Our Architecture in ECS" src="https://github.com/user-attachments/assets/3dfefc1f-5bd2-49c7-9071-3b697a7ada48" />
+
 🚀 Architecture Overview
 
 The system is composed of multiple microservices communicating through REST APIs, gRPC, and Kafka events.
@@ -108,14 +112,6 @@ Responsibilities
 
 The system uses Apache Kafka for asynchronous communication.
 
-Workflow
-Patient Created
-      │
-      ▼
-Kafka Topic (patient)
-      │
-      ▼
-Analytics Service consumes event
 Kafka Improvements
 
 ⚡ Upgraded Kafka to 3.7.x
@@ -183,26 +179,3 @@ DevOps
 🚀 ECS Fargate
 🧪 Integration Tests
 
-📂 Project Structure
-healthcare-microservices
-│
-├── patient-service
-├── billing-service
-├── auth-service
-├── analytics-service
-├── api-gateway
-├── integration-tests
-├── infrastructure (AWS CDK)
-
-✨ Key Highlights
-
-🚀 Microservices architecture
-🔐 Secure authentication with JWT
-📡 Event-driven system with Kafka
-⚡ gRPC inter-service communication
-☁️ Cloud deployment on AWS
-🐳 Docker containerization
-🧪 Integration testing
-
-
-<img width="2048" height="1073" alt="image" src="https://github.com/user-attachments/assets/c46fb8d5-abf2-4b29-bf3d-fc40fbd83619" />
